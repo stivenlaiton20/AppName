@@ -1,6 +1,7 @@
 body {
     background-color: #263344;
 }
+
 .label-input-pry {
     font-size: 20px;
     display: flex;
@@ -26,6 +27,17 @@ body {
         width: 93%;
         height: 92%;
         margin-bottom: 40px;
+    }
+    .print-text ol,.print-text ol li{
+        text-align:start;
+    }
+    .print-text h2 {
+        font-size: 20px;
+        text-align:justify;
+    }
+    .print-text h3 {
+        font-size: 20px;
+        text-align: start;
     }
 
 }
@@ -94,12 +106,29 @@ body {
 }
 
 h1 {
-    color: #ffff;
-    font-size: 60px;
+    
+    font-size: 50px;
 }
-h2, p , label{
+.print-text h2 {
+    font-size: 25px;
+    text-align:center;
+}
+h1, h2, h3, p , label{
     color: #ffff;
 } 
 label {
     padding-right: 50px;
+}
+.print-text h3 {
+    text-align:center;
+    margin: 5px;
+}
+.print-text ol{
+    font-size: 22px;
+}
+.print-text li, ol{
+text-align:center;
+ color: white;
+ list-style: none;
+ margin-top: 10px;
 }

@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+body {
+    background-color: #263344;
+}
+.label-input-pry {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    text-align:center;
+}
+.app {
+    overflow: hidden;
+    /*border: red 2px solid;*/
+    width: 80vh;
+    margin:  0 auto;
+    background-color: #1A4A7D;
+    height: 90vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+    .app {
+        overflow: hidden;
+        width: 93%;
+        height: 92%;
+        margin-bottom: 40px;
+    }
+
+}
+.btnprimario {
+        width: 80%;
+        margin: 0 auto;
+        background-color: #e91e63;
+        padding: 15px;
+        color: white;
+        font-size: 25px;
+        margin-bottom: 40px;
+
+    
+}
+.btnprimario:hover{
+    cursor: pointer;
+}
+.texto-introduc{
+    font-size: 22px;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-text {
+    font-size: 17px;
+    text-decoration-line: #ffff;
+    background-color: transparent;
+    width: 80%;
+    margin: 0 auto;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration-style: none;
+    text-decoration-color: transparent;
+    /* text-decoration: none; */
+    /* border: none; */
+    color: white;
+    border-bottom-color: white;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+
+        
+    width: 80%;
+    margin: 0 auto;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+
+}
+.print-text{
+    background-color: #173F5F;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    color: #ffff;
+    font-size: 60px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2, p , label{
+    color: #ffff;
+} 
+label {
+    padding-right: 50px;
 }

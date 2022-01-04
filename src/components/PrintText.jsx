@@ -1,11 +1,5 @@
 export default function PrintText( resultado ) {
-
-    
     resultado = resultado.datos
-    console.log(resultado)
-    
-    
-
     if(resultado.state === true){
         const nacionalidades = resultado.nacionalidades
         return (
